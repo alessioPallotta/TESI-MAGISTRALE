@@ -6,7 +6,7 @@ git clone https://github.com/alessioPallotta/TESI-MAGISTRALE.git
 cd TESI-MAGISTRALE
 ```
 
-Setup di conda per il server
+Setup di conda per il server (installare in /opt/miniconda3)
 ```sh
 sudo chmod +x setup-server.sh
 ./setup-server.sh
