@@ -24,7 +24,7 @@ source ~/.bashrc
 
 Setup ambiente conda e installazione delle dipendenze
 ```
-conda create -f ./environment/environment.yml
+conda env create -f ./environment/environment.yml
 conda activate logBert
 ```
 
