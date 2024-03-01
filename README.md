@@ -8,7 +8,7 @@ cd TESI-MAGISTRALE
 
 Setup di conda per il server
 ```sh
-sudo chmod $USER +x setup-server.sh
+sudo chmod +x $USER setup-server.sh
 ./setup-server.sh
 ```
 
