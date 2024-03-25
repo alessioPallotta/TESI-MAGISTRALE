@@ -28,3 +28,7 @@ conda env create -f ./environment/environment.yml
 conda activate logBert
 ```
 
+Scaricare i driver nvidia
+```
+https://gist.github.com/denguir/b21aa66ae7fb1089655dd9de8351a202
+```
