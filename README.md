@@ -57,7 +57,7 @@ sudo apt install nvidia-driver-525
 ```
 Reboot & Check
 ```
-reboot
+sudo reboot
 ```
 after restart verify that the following command works
 ```
