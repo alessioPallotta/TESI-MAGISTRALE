@@ -10,3 +10,4 @@ torch==1.11.0
 tqdm==4.63.0
 yellowbrick==1.5
 -U sentence-transformers
+nltk==3.8.1
