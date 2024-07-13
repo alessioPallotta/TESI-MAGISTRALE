@@ -115,3 +115,24 @@ t = torch.rand(10, 10).cuda()
 print(t.device) # should be CUDA
 ```
 
+### COPIARE DATI DA UN SERVER A UN ALTRO TRAMITE SSH
+ 
+MI POSIZIONO NEL SERVER DA CUI COPIO LA ROBA
+ 
+- Caricare il file chiave privata (id_rsa)
+- Spostare il file id_rsa in users/ALEP/.ssh
+- Posizionarsi sulla root
+- Fare chmod 600 users/ALEP/.ssh/id_rsa
+- dare i permessi sudo chmod -R 777 mydata
+- accedere al nuovo sever e dare i permessi sudo chmod 777 mydata
+- ritornare sul vecchio server e eseguire il seguente comando : scp -r /mydata/* ALEP@c220g2-010830.wisc.cloudlab.us:/mydata
+ 
+Enter passphrase for key '/users/ALEP/.ssh/id_rsa'
+ 
+Se non funziona provare a mettere la chiave pubblica nel nuovo server,
+andare nell'ultima riga del file e sostituire indirizzo presente con ALEM@indirizzo_server_vecchio
+ 
+ 
+ 
+scp -r /mydata/* ALEP@c240g5-110129.wisc.cloudlab.us:/mydata
+
